@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The_Big_Test</title>
+  <link rel="icon" type="image/x-icon" href="../Bilder/The_Big_Test_Icon.ico">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <header>
+
+    <a href="index.html" class="logo">
+      <div class="logo-img">
+        <a href="../index.html"><img src="../Bilder/The_Big_Test..png"></a>
+      </div>
+    </a>
+    <ul class="nav">
+      <li><a href="../index.html">Hem</a></li>
+      <li><a href="../Om oss/index.html">Om oss</a></li>
+      <li><a href="../Spel/index.html">Spel</a></li>
+      <li><a href="../Kontakt/index.html">Kontakt</a></li>
+    </ul>
+    <div class="boxContainer">
+      <table class="elementsContainer">
+        <tr>
+          <td>
+            <input type="text" placeholder="Sök efter spel" class="search">
+          </td>
+          <td>
+            <a href="#"><i class='bx bx-search'></i></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="toggleMenu">
+
+    </div>
+  </header>
+
+  <!-- Kontakta oss-->
+
+  <div class="about">
+    <div class="contentBx">
+      <h2>Kontakta oss</h2>
+      <p>E-post: förnamn.efternamn@elev.ga.ntig.se<br>
+        Mobil: +(46) 0701234567.
+      </p>
+    </div>
+    <a href="../index.html"><img src="../Bilder/The_Big_Test (1).png"></a>
+  </div>
+
+  <!-- Sidfot -->
+  <footer>
+    <div class="footer-content">
+      <h3>The_Big_Test</h3>
+      <div class="footer-content-repl">
+        <h4>Skapad med <a href="https://replit.com/~">Replit</a></h4>
+      </div>
+      <div class="footer-content-nti">
+        <p>Av två studenter som går p<a href="https://www.ntigymnasiet.se/sodertalje/">NTI Gymnasiet Södertälje</a></p>
+      </div>
+      <ul class="social">
+        <li><a href="https://www.facebook.com/ntisodertalje/"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/ntigymnasiet"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.ntigymnasiet.se/sodertalje/"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="https://www.youtube.com/watch?v=ycf2FJJgC-I"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.linkedin.com/school/nti-gymnasiet/"><i class="fa fa-linkedin-square"></i></a></li>
+        <li><a href="https://www.instagram.com/nti_gymnasiet_sodertalje/"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright &copy;2022 The_Big_Test. Designad av <span>Corneliu & Adam</span>
+    </div>
+  </footer>
+
+  <script>
+
+    window.addEventListener('scroll', function () {
+      var header = document.querySelector('header')
+      header.classList.toggle('sticky', window.scrollY > 0)
+    });
+
+  </script>
+</body>
+
+</html>

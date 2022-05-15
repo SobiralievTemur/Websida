@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The_Big_Test</title>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3481552621049422" crossorigin="anonymous"> 
+  </script>
+  <link rel="icon" type="image/x-icon" href="../Bilder/The_Big_Test_Icon.ico">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+
+    <a href="index.html" class="logo">
+      <div class="logo-img">
+        <a href="../index.html"><img src="../Bilder/The_Big_Test..png"></a>
+      </div>
+    </a>
+    <ul class="nav">
+      <li><a href="index.html">Hem</a></li>
+      <li><a href="../Om oss/index.html">Om oss</a></li>
+      <li><a href="../Spel/index.html">Spel</a></li>
+      <li><a href="../Kontakt/index.html">Kontakt</a></li>
+    </ul>
+    <div class="boxContainer">
+      <table class="elementsContainer">
+        <tr>
+          <td>
+            <input type="text" placeholder="Sök efter spel" class="search">
+          </td>
+          <td>
+            <a href="#"><i class='bx bx-search'></i></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="toggleMenu">
+
+    </div>
+  </header>
+
+  <!-- Play -->
+
+  <div class="music-container">
+    <div class="play">
+      <p>Tryck här för att lyssna</p>
+      <img src="../Bilder/play.png" id="icon">
+    </div>
+  </div>
+
+  <!-- Ljud -->
+
+  <audio id="ljud">
+    <source src="../Musik/Sappheiros - Dawn.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+
+
+  <!-- Hem Baner-->
+
+  <div class="banner">
+    <div class="bg">
+      <div class="content">
+        <h2>Ett Nytt Hem För<br>
+          Spelälskare
+        </h2>
+        <p>Va en av dem första som testar Solitaire.</p>
+        <a href="../Solitair/solitair.html" class="btn">Gå Med Nu</a>
+      </div>
+      <img src="../Bilder/Solitaire.png">
+    </div>
+  </div>
+
+  <!-- Om Oss-->
+
+  <div class="about">
+    <div class="contentBx">
+      <h2>Om oss</h2>
+      <p>Vi är studenter som går i NTI Gymnasiet Södertälje. <br>
+        Vi går årskurs 2, Teknikprogrammet.
+      </p>
+      <a href="../Om oss/index.html">Läs mer</a>
+    </div>
+    <img src="../Bilder/The_Big_Test (1).png">
+  </div>
+
+  <!--Spel-->
+
+  <div class="games">
+    <h2>Populär Spel</h2>
+    <ul>
+      <li class="list active">Alla</li>
+      <li class="list">Dator spel</li>
+      <li class="list">Mobil spel</li>
+    </ul>
+    <div class="cardBx">
+      <div class="card" data-item="pc">
+        <img src="../Bilder/Solitaire.png">
+        <div class="content">
+          <h4>Solitair</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <a href="../Solitair/solitair.html">Spela Nu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidfot -->
+
+  <footer>
+    <div class="footer-content">
+      <h3>The_Big_Test</h3>
+      <div class="footer-content-repl">
+        <h4>Skapad med <a href="https://replit.com/~">Replit</a></h4>
+      </div>
+      <div class="footer-content-nti">
+        <p>Av två studenter som går på <a href="https://www.ntigymnasiet.se/sodertalje/">NTI Gymnasiet Södertälje</a></p>
+      </div>
+      <ul class="social">
+        <li><a href="https://www.facebook.com/ntisodertalje/"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/ntigymnasiet"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.ntigymnasiet.se/sodertalje/"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="https://www.youtube.com/watch?v=ycf2FJJgC-I"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.linkedin.com/school/nti-gymnasiet/"><i class="fa fa-linkedin-square"></i></a></li>
+        <li><a href="https://www.instagram.com/nti_gymnasiet_sodertalje/"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-music">
+        <p>🎵 Song: 'Dawn' by Sappheiros <br>🎶 Music promoted by BreakingCopyright: <br> <a href="https://www.youtube.com/watch?    
+          v=pWAP7fIwGnI">https://breakingcopyright.com</a></p>
+      </div>
+      <p>Copyright &copy;2022 The_Big_Test. Designad av <span>Corneliu & Adam</span>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', function () {
+      var header = document.querySelector('header')
+      header.classList.toggle('sticky', window.scrollY > 0)
+    });
+  </script>
+
+</body>
+
+</html>
